@@ -32,7 +32,7 @@ try:
         cred = credentials.Certificate("serviceAccountKey.json")
         firebase_admin.initialize_app(cred)
         db = firestore.client()
-        print("Firebase Admin Initialized Successfully!")
+        print("Firebase Admin Initialized Successfully!"
     else:
         db = None
         print("WARNING: serviceAccountKey.json not found. Database will be simulated in-memory.")
