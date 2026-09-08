@@ -12,7 +12,7 @@ A modern, full-stack web application designed for women's safety. This applicati
 ## Tech Stack
 - **Frontend:** React, TypeScript, Vite
 - **Backend:** Python, FastAPI, Uvicorn
-- **Third-Party Services:** Twilio (SMS), Cloudinary (Video Hosting), Google Maps 
+- **Third-Party Services:** Twilio (SMS), Cloudinary (Video Hosting), Google Maps (Live Location)
 
 ## Setup Instructions
 
