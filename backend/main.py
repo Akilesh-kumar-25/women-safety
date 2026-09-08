@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import json
 import firebase_admin
-from firebase_admin import credentials, firestore, aut
+from firebase_admin import credentials, firestore, auth
 import os
 import socket
 import uuid
